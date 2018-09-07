@@ -5,6 +5,8 @@
     <title></title>
   </head>
   <body>
+    <div class="nav--desktop">
+        <!-- "class" is not covered in the lesson, but I looked it up and it's a ref to the CSS style -->
     <div class="mobile-wrapper">
     <div class="header-cart__wrapper hidden-lg">
       <a href="/cart" class="CartToggle header-cart"><i class="icon icon-ra_bag"></i></a>
@@ -13,6 +15,7 @@
     <div class="logo-wrapper ">
         <h1 class="h4 header-logo" itemscope="" itemtype="http://schema.org/Organization">
           <a href="/" itemprop="url"><i class="icon icon-ra_primary-logo"></i></a>
+            <!-- "itemprop" "i class"-->
         </h1>
     </div>
     <a href="" class="menuToggle header-hamburger"></a>
@@ -21,10 +24,12 @@
   <ul class="main-menu accessibleNav">
   <li class="grandparent  kids-4">
     <a href="#" class="nav-link" id="Shop">Shop</a>
+    <!-- "a href="#""  "id"-->
     <a href="#" class="nav-carat"><span class="plus">+</span><span class="minus">-</span></a>
       <div class="main-menu-dropdown">
         <ul class="main-menu-dropdown--list">
 <li aria-haspopup="true">
+  <!-- "aria-haspopup" -->
     <ul class="collection-nav--child">
       <li class="collection-nav--child-link"><h5><a href="/collections/all">All Collections</a></h5>  </li>
       <li class="collection-nav--child-link"><h5><a href="/collections/new-arrivals">New Arrivals</a></h5>  </li>
@@ -90,6 +95,7 @@
       </div>
   </li>
   <li class="child  kids-0">
+    <!-- "child  kids-0" Not sure what this is referencing. If it's a CSS style or something else-->
     <a href="/pages/about-us" class="nav-link" id="About">About</a>
   </li>
   <li class="child  kids-0">
@@ -114,5 +120,6 @@
       </a>
     </li>
   </ul>
+</div>
 </div>
 </html>
